@@ -11,13 +11,13 @@
   white-space: nowrap;
 }
 
-.btn-primary {
+.btn--primary {
   background-color: var(--primary);
   color: #242424;
   border: 1px solid var(--primary);
 }
 
-.btn-outline {
+.btn--outline {
   background-color: transparent;
   color: #fff;
   padding: 8px 20px;
@@ -27,7 +27,7 @@
 
 .btn--medium {
   padding: 8px 20px;
-  font-size: 18p;
+  font-size: 18px;
 }
 
 .btn--large {
@@ -40,7 +40,7 @@
   border-radius: 4px;
   width: 80%;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   background-color: transparent;
   color: #fff;
   padding: 14px 20px;
@@ -49,7 +49,7 @@
 }
 
 .btn--wide {
-  padding: 12px 64 px;
+  padding: 12px 64px;
   font-size: 20px;
 }
 
@@ -57,14 +57,24 @@
 .btn--medium:hover,
 .btn--mobile:hover {
   transition: all 0.3s ease-out;
-  background-color: #fff;
+  background: #fff;
   color: #242424;
 }
 
-.btn-wide:hover {
+.btn--wide:hover {
   color: #fff;
   background-color: #f00946;
   transition: all 0.2s ease-out;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
 }
 
 .blue {
@@ -92,7 +102,7 @@
 }
 
 .green {
-  background-color: #25ce4a;
+  background: #25ce4a;
   color: #fff;
   border: none;
 }
